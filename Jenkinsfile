@@ -3,8 +3,8 @@ pipeline {
 
    environment {
      // You must set the following environment variables
-     ORGANIZATION_NAME = "sujonsumaiya"
-     YOUR_DOCKERHUB_USERNAME ="sujon-kube-learning"
+     ORGANIZATION_NAME = "sujon-kube-learning"
+     YOUR_DOCKERHUB_USERNAME = "sujonsumaiya" 
      SERVICE_NAME = "fleetman-queue"
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
    }
